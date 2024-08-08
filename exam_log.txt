@@ -1,0 +1,32 @@
+    1  mkdir linux_practice
+    2  cd linux_practice
+    3  cat notes.txt
+    4  head -n 1 notes.txt
+    5  tail -n 1 notes.txt
+    6  cd subdir
+    7  mv notes.txt subdir/
+    8  mv subdir practice_subdir
+    9  cd ..
+   10  mv notes.txt subdir/
+   11  mv subdir practice_subdir
+   12  cp practice_subdir/notes.txt .
+   13  date
+   14  uptime
+   15  du -sh ~
+   16  ssh -v
+   17  mysql --version
+   18  apache2 -v
+   19  apache2 --version
+   20  apachectl -v
+   21  pkg install apache2
+   22  apachectl -v
+   23  python --version
+   24  pkg install python
+   25  python version --version
+   26  java -version
+   27  gh repo clone https://github.com/biniYondee/232391276_DALOG
+   28  cd 232391276_DALOG
+   29  gh repo clone https://github.com/biniYondee/232391276_DALOG
+   30  cd ..
+   31  git checkout -b finalexam
+   32  history > exam_log.txt
